@@ -1,12 +1,12 @@
 variable "access_key"{
  description="Access key"
- default = "AKIAUQ7A24A4UCHDGM2A"
+ default = "AKIAUQ7A24A4"
 }
 
 
 variable "secret_key"{
  description="secret key"
- default = "c25saboisisyk6HLjU3zmDEp1+Epjahig78t/Tvi"
+ default = "c25saboisisyk6Hahig78t/Tvi"
 }
 
 
@@ -45,13 +45,13 @@ variable "availability_zones" {
 variable "vpc_security_group_ids" {
   description = "List of security group IDs"
   type        = set(string)
-  default     = ["sg-0e3c7027a4d340be4"]  # You can specify a default value
+  default     = ["sg-0e3c7027a4d3404"]  # You can specify a default value
 }
 
 
 variable "subnet_id" {
   description = "subenet id"
-  default     = "subnet-02c32361c453fbd9b" # You can specify a default value
+  default     = "subnet-02c32361c3fbd9b" # You can specify a default value
 }
 
 variable "tags" {

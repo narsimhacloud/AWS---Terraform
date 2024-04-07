@@ -9,8 +9,8 @@ terraform {
     bucket         = "narsiterraform" // Replace with your S3 bucket name
     key            = "aws/terraform.tfstate" // Specify the path and filename for your state file
     region         = "us-east-1"
-    access_key     = "AKIAUQ7A24A4UCHDGM2A"
-    secret_key     = "c25saboisisyk6HLjU3zmDEp1+Epjahig78t/Tvi"
+    access_key     = ""
+    secret_key     = ""
   }
 }
 

@@ -6,8 +6,8 @@ instances_count = 1
 key_name        = "linux"
 region          = "us-east-1"
 availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
-vpc_security_group_ids = ["sg-0e3c7027a4d340be4"]
-subnet_id       = "subnet-02c32361c453fbd9b"
+vpc_security_group_ids = [""]
+subnet_id       = "subnet-02c32361c45"
 
 tags = {
   Environment = "Production"
